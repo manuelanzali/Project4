@@ -44,3 +44,10 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Ignore all Tableau temporary/backup files
+*.~*
+.~*
+*.~Tableau*
+.~Tableau*.DS_Store
+**/.DS_Store
