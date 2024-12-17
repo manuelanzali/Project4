@@ -1,8 +1,10 @@
 Happiness Predictor
 
 Introduction: 
-.
-.
+
+. 
+
+. 
 
 
 Table of Contents:
@@ -12,10 +14,12 @@ Table of Contents:
 4. Machine Learning Models
 5. Analysis
 6. Visualizations
-
+it s
 How we can further this analysis:
-.
-.
+
+. 
+
+. 
 
 
 
