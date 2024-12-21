@@ -18,8 +18,8 @@
 happiness of countries around the world and explore different factors that impacted this 
 variable. 
 
-● To achieve this, we created and ran two different models on various datasets with different 
-parameters and analyzed the performance of the model using different statistical 
+● To achieve this, we created and ran a Random Forest Regression and Gradient Boost Regression model on various datasets with different 
+parameters and analyzed how to increase the performance of the model using different statistical 
 techniques.
 
 ● Our dataset has various variables, including Country, Region, Subregion (Location), Life 
