@@ -7,9 +7,9 @@
 1. About our Analysis
 2. How this works
 3. ETL Process
-4. Machine Model
+4. Machine Models
 5. Statistics
-6. Visualizations
+6. Visualizations using Python, Tableau, and DataBricks
 7. What’s Next
 8. Citations
 
@@ -59,15 +59,18 @@ showcase how our model works and further support our conclusion.
 
 ## Statistics
 
+
 ### Anova:
 
-● We used an ANOVA test and were able to see that with a p-value of 0 for each feature compared to the Life Ladder, there is strong indication against the null hypothesis which suggests that each group is significantly different from our target variable. The F-statistic provided further support that there is a significant difference between the means of the groups being compared.
+We used an ANOVA test and were able to see that with a p-value of 0 for each feature compared to the Life Ladder, there is strong indication against the null hypothesis which suggests that each group is significantly different from our target variable. The F-statistic provided further support that there is a significant difference between the means of the groups being compared.
 
-● Per our analysis, there is a strong statistical relationship between each feature and the Life Ladder variable. Our F-statistics showed there is a moderate to substantial difference in the Life Ladder values across different levels of each feature. The p value of 0 in each result showed there is not a difference in the Life Ladder means across different levels of values in each feature. Each feature was proven to have an impact on happiness as measured by the Life Ladder.
+Per our analysis, there is a strong statistical relationship between each feature and the Life Ladder variable. Our F-statistics showed there is a moderate to substantial difference in the Life Ladder values across different levels of each feature. The p value of 0 in each result showed there is not a difference in the Life Ladder means across different levels of values in each feature. Each feature was proven to have an impact on happiness as measured by the Life Ladder.
+
 
 ![image](https://github.com/user-attachments/assets/907e5040-1b79-4674-8693-75d4443f6073)
 
 ![image](https://github.com/user-attachments/assets/f8c821f1-df46-405d-83ee-70793a638a37)
+
 
 ### Anova Results:
 ![image](https://github.com/user-attachments/assets/0e2f44c3-4834-48e3-a951-418afbeb73c4)
@@ -87,11 +90,13 @@ showcase how our model works and further support our conclusion.
 ![image](https://github.com/user-attachments/assets/fc7d6f02-26c3-4d2b-8fa3-aaf5c123e1b8)
 
 
+
 ### SQL:
 
-● We used SQL to aggregate our data and provide further support of our conclusion that each feature impacted the life ladder/happiness values in each country. We were able to explore our data and retrieve the top happiest countries by ordering their Life Ladder in descending order, the top countries with highest GDP and the top countries with highest life expectancy.
+We used SQL to aggregate our data and provide further support of our conclusion that each feature impacted the life ladder/happiness values in each country. We were able to explore our data and retrieve the top happiest countries by ordering their Life Ladder in descending order, the top countries with highest GDP and the top countries with highest life expectancy.
 
-● We wanted to see if there was a similarity in the top 10 countries and those that had the highest GDP, and life expectancy. Through our queries we were able to see there was a similarity of 1 country Switzerland. 
+We wanted to see if there was a similarity in the top 10 countries and those that had the highest GDP, and life expectancy. Through our queries we were able to see there was a similarity of 1 country Switzerland. 
+
 
 #### Top 10 Happiest Countries
 ![image](https://github.com/user-attachments/assets/d92a1b7b-a4f2-4c87-b14e-d23634a9337d)
@@ -102,7 +107,9 @@ showcase how our model works and further support our conclusion.
 #### Top 10 Countries with Highest Life Expectancy
 ![image](https://github.com/user-attachments/assets/4f61f432-859f-4846-a00b-1a9a750dc1e7)
 
-● Due to this, we opened our scope to top 15 countries and joined each query to find matching countries in each query. We were able to then conclude that there was a correlation of 5 countries; Sweden, Iceland, Switzerland, Luxembourg, and the Netherlands; that had the highest happiness, GDP, and Life expectancy at birth.
+
+Due to this, we opened our scope to top 15 countries and joined each query to find matching countries in each query. We were able to then conclude that there was a correlation of 5 countries; Sweden, Iceland, Switzerland, Luxembourg, and the Netherlands; that had the highest happiness, GDP, and Life expectancy at birth.
+
 
 ![image](https://github.com/user-attachments/assets/f6387df3-b4c5-4261-a2bc-3a3528278273)
 
@@ -131,12 +138,14 @@ Feature Importance of each key variable:
 
 ![image](https://github.com/user-attachments/assets/3f42a85f-fa57-491a-91c9-38aed6451892)
 
-## What's next:
+
+## What's next?
 
 
-It would be interesting to study if there is an effect of Sunshine Hours on Happiness values globally.
+We thought it would be interesting to study if there is an effect of Sunshine Hours on Happiness values globally.
 
 ![image](https://github.com/user-attachments/assets/cfc86441-e9e8-4d0e-a9c2-20cdf8053f87)
+
 
 ## Citations
 
