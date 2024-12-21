@@ -69,7 +69,7 @@ showcase how our model works and further support our conclusion.
 
 ![image](https://github.com/user-attachments/assets/f8c821f1-df46-405d-83ee-70793a638a37)
 
-#### Anova Results
+### Anova Results:
 ![image](https://github.com/user-attachments/assets/0e2f44c3-4834-48e3-a951-418afbeb73c4)
 
 ![image](https://github.com/user-attachments/assets/18538258-59b1-4367-8671-175bb67c242a)
@@ -93,7 +93,7 @@ showcase how our model works and further support our conclusion.
 
 ● We wanted to see if there was a similarity in the top 10 countries and those that had the highest GDP, and life expectancy. Through our queries we were able to see there was a similarity of 1 country Switzerland. 
 
-#### Top Happiest Countries
+#### Top 10 Happiest Countries
 ![image](https://github.com/user-attachments/assets/d92a1b7b-a4f2-4c87-b14e-d23634a9337d)
 
 #### Top 10 Countries with Highest GDPs
