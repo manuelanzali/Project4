@@ -1,8 +1,6 @@
 
-# Project4
+# Happiness Predictor
 
-
-Happiness Predictor
 
 ## Table Of Contents:
 
@@ -37,11 +35,13 @@ showcase how our model works and further support our conclusion.
 ## ETL Process
 
 ![image](https://github.com/user-attachments/assets/f49e3139-d1e0-4546-9cf3-55cf09e11086)
+
 ![image](https://github.com/user-attachments/assets/73f8285a-43c0-42d7-96f2-f4c4b468d3dd)
+
 ![image](https://github.com/user-attachments/assets/9eecd71e-1c42-4859-874d-0c33dbae4ef1)
 
 
-**Machine Model**
+## Machine Model
 
 #### Random Forest vs. Gradient Boost Model
 
@@ -62,16 +62,24 @@ showcase how our model works and further support our conclusion.
 ● Per our analysis, there is a strong statistical relationship between each feature and the Life Ladder variable. Our F-statistics showed there is a moderate to substantial difference in the Life Ladder values across different levels of each feature. The p value of 0 in each result showed there is not a difference in the Life Ladder means across different levels of values in each feature. Each feature was proven to have an impact on happiness as measured by the Life Ladder.
 
 ![image](https://github.com/user-attachments/assets/907e5040-1b79-4674-8693-75d4443f6073)
+
 ![image](https://github.com/user-attachments/assets/f8c821f1-df46-405d-83ee-70793a638a37)
 
 #### Anova Results
 ![image](https://github.com/user-attachments/assets/0e2f44c3-4834-48e3-a951-418afbeb73c4)
+
 ![image](https://github.com/user-attachments/assets/18538258-59b1-4367-8671-175bb67c242a)
+
 ![image](https://github.com/user-attachments/assets/46343d8e-5061-4ce0-9e9b-a233969c8e1c)
+
 ![image](https://github.com/user-attachments/assets/4220b117-89dd-4aa8-a12c-0e1eda07bf85)
+
 ![image](https://github.com/user-attachments/assets/d98aafb5-6c48-4f2f-a78f-25f31590381a)
+
 ![image](https://github.com/user-attachments/assets/b0d5f0fe-9638-4a4d-a497-992e36fd6d7f)
+
 ![image](https://github.com/user-attachments/assets/e733b3bf-e9d4-4505-aeeb-73e7b2adf7c3)
+
 ![image](https://github.com/user-attachments/assets/fc7d6f02-26c3-4d2b-8fa3-aaf5c123e1b8)
 
 
@@ -92,12 +100,13 @@ showcase how our model works and further support our conclusion.
 ● Due to this, we opened our scope to top 15 countries and joined each query to find matching countries in each query. We were able to then conclude that there was a correlation of 5 countries; Sweden, Iceland, Switzerland, Luxembourg, and the Netherlands; that had the highest happiness, GDP, and Life expectancy at birth.
 
 ![image](https://github.com/user-attachments/assets/f6387df3-b4c5-4261-a2bc-3a3528278273)
+
 ![image](https://github.com/user-attachments/assets/fad2d2a9-b680-428a-bd4b-ae1d22d77d96)
 
 
 
 
-**VISUALIZATIONS**
+## VISUALIZATIONS
 
 
 Tableau link: https://public.tableau.com/app/profile/maria.paula.ardila/viz/HappinessPredictorMLDashboard/Dashboard1
