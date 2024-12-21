@@ -17,13 +17,16 @@
 ● The intention of our project was to create a machine model that would be able to predict the 
 happiness of countries around the world and explore different factors that impacted this 
 variable. 
+
 ● To achieve this, we created and ran two different models on various datasets with different 
 parameters and analyzed the performance of the model using different statistical 
 techniques.
+
 ● Our dataset has various variables, including Country, Region, Subregion (Location), Life 
 Ladder, Log GDP per capita, Social support, Healthy life expectancy at birth, Freedom to 
 make life choices, Generosity, Perceptions of corruption, Positive affect, Negative affect, 
 Various Health indicators
+
 ● From this data, we developed various visualizations using Tableau and Google Colab that 
 showcase how our model works and further support our conclusion.
 
@@ -59,6 +62,7 @@ showcase how our model works and further support our conclusion.
 ### Anova:
 
 ● We used an ANOVA test and were able to see that with a p-value of 0 for each feature compared to the Life Ladder, there is strong indication against the null hypothesis which suggests that each group is significantly different from our target variable. The F-statistic provided further support that there is a significant difference between the means of the groups being compared.
+
 ● Per our analysis, there is a strong statistical relationship between each feature and the Life Ladder variable. Our F-statistics showed there is a moderate to substantial difference in the Life Ladder values across different levels of each feature. The p value of 0 in each result showed there is not a difference in the Life Ladder means across different levels of values in each feature. Each feature was proven to have an impact on happiness as measured by the Life Ladder.
 
 ![image](https://github.com/user-attachments/assets/907e5040-1b79-4674-8693-75d4443f6073)
@@ -86,6 +90,7 @@ showcase how our model works and further support our conclusion.
 ### SQL:
 
 ● We used SQL to aggregate our data and provide further support of our conclusion that each feature impacted the life ladder/happiness values in each country. We were able to explore our data and retrieve the top happiest countries by ordering their Life Ladder in descending order, the top countries with highest GDP and the top countries with highest life expectancy.
+
 ● We wanted to see if there was a similarity in the top 10 countries and those that had the highest GDP, and life expectancy. Through our queries we were able to see there was a similarity of 1 country Switzerland. 
 
 #### Top Happiest Countries
@@ -136,5 +141,9 @@ It would be interesting to study if there is an effect of Sunshine Hours on Happ
 ## Citations
 
 World Health data (A study health for the SDGs, Sustainable Development Goals since 2005) - https://data.who.int/
+
+
 World Happiness Report (Report gathered from the Gallup World poll (GWP) 2005 - 2023) - https://worldhappiness.report/data/
+
+
 
